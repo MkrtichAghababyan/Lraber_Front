@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="lraber.css">
+        <link rel="stylesheet" href="lraberMedia.css">
+        <link rel="icon" href="icons/images.png"> 
+        <title>Lraber</title>
+    </head>
+    <body>
+        <div class="toTop">
+            <img class="arrow" src="icons/arrow.png" alt="">
+        </div>
+        <div class="glob">
+            <header>
+                <div class="header-left">
+                    <div class="header-left-inside">
+                        <p class="logo">
+                            <a href="index.html">Lraber</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="header-center">
+                    <ul>
+                        <li>
+                            <a class="a-menu" href="#" onclick="Dayly()">Օրվա Խորհուրդ</a>
+                        </li>
+                        <li>
+                            <a class="a-menu" href="RegistrationCheck.html">Ստուգում</a>
+                        </li>
+                        <li>
+                            <a class="a-menu"  href="#" onclick="Maker()">Հեղինակ</a>
+                        </li>
+                        <li>
+                            <a class="a-menu" href="#" onclick="Help()">Օգնություն</a>
+                        </li>
+                        <li>
+                            <a class="a-menu" href="animationIndex.html">Անիմացիա</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <div class="header-right-left">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="header-right-right">
+                        <div class="burger">
+                            <div class="lines">
+                                <div class="line line1"></div>
+                                <div class="line line2"></div>
+                                <div class="line line3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="burgerContent">
+                <ul class="burger-ul">
+                    <li class="burger-li">
+                        <a href="#">Գլխավոր</a>
+                        <img class="icon-burger" src="icons/home.png" alt="">
+                    </li>
+                    <li class="burger-li">
+                        <a href="#">Նորություններ</a>
+                        <img class="icon-burger" src="icons/product.png" alt="">
+                    </li>
+                    <li class="burger-li">
+                        <a href="#">Մեր Մասին</a>
+                        <img class="icon-burger" src="icons/pricing.png" alt="">
+                    </li>
+                    <li class="burger-li">
+                        <a href="#">Կոնտակտներ</a>
+                        <img class="icon-burger" src="icons/contact.png" alt="">
+                    </li>
+                </ul>
+                <div class="burger-search">
+                    <input type="text" class="burger-inp" placeholder="Search">
+                    <button class="burger-btn">Որոնել</button>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search" class="inp-search">
+                <button class="search-btn">Որոնել</button>
+            </div>
+            <main id="main">
+                <div class="main-right">
+                    <div class="main-right-inside" id= "1">
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!-- link to js -->
+        <script src="lraber.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            window.onload = () =>{
+                alert("Կուրսային Աշխատանք\n\nԽումբ՝ 011\n\nԱղաբաբյան Մկրտիչ Տիգրանի\n\n22․12․2023");
+            }
+            const xorhurd = ["Ձեղ Սպասվում է Հիանալի Օր", "Մարդու մեջ ոչինչ բացարձակ չէ: Անկասկած է, որ անառակ մարդը փչացնում է իր տաղանդը, իսկ հարբեցողը խեղդում է այն գինարբուքի մեջ, բայց ժուժկալ մարդն էլ տաղանդավոր չի դառնա, եթե խստիվ պահպանի առողջապահության բոլոր կանոնները:", "Զգուշացեք Կարիճներից"];
+            function Dayly(){
+                alert(xorhurd[Math.floor(Math.random() * (2 - 0 + 1) + 0)]);
+            }
+            function Maker(){
+                alert("Մկրտիչ Աղաբաբյան Տիգրանի\n\nՈւսունական Հաստատություն՝ Երևանի Ինֆոմատիկայի Պետական Քոլեջ\n\nԿուրսային Աշխատանքի Անվանում՝ Լրատվական Ծրագիր\n\nԾրագրի Ժամլետը՝ 22․12․2023");
+            }
+            function Help(){
+                alert("Lraber Վեբ Ծրագիը Իրենից Ներկայացնում է Օնլայն Հավելված Որտեղից Կարող Եք Կարդալ և Իմանալ Նորություններ Առանց Գրանցման Իսկ Եթե Կուզենաք Էլ Ավելի Շուտ Իմանալ Նորությունները Ապա Միայն Թողնում Եք Ձեր Մեյլը։")
+            }
+           AOS.init();
+          </script>
+    </body>
+</html>

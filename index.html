@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="lraber.css">
+    <link rel="stylesheet" href="lraberMedia.css">
+    <link rel="icon" href="icons/images.png">
+    <title>Lraber</title>
+</head>
+<body>
+    <div class="toTop">
+        <img class="arrow" src="icons/arrow.png" alt="">
+    </div>
+    <div class="glob">
+        <header>
+            <div class="header-left">
+                <div class="header-left-inside">
+                    <p class="logo">
+                        <a href="index.html">Lraber</a>
+                    </p>
+                </div>
+            </div>
+            <div class="header-center">
+                <ul>
+                    <li>
+                        <a class="a-menu" href="#main">Գլխավոր</a>
+                    </li>
+                    <li>
+                        <a class="a-menu" href="#practis">Նորություններ</a>
+                    </li>
+                    <li>
+                        <a class="a-menu" href="#practise">Մեր Մասին</a>
+                    </li>
+                    <li>
+                        <a class="a-menu" href="#touch">Կոնտակտներ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <div class="header-right-left">
+                    <ul>
+                        <li class="search">
+                            <img src="icons/search.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right-right">
+                    <div class="burger">
+                        <div class="lines">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="burgerContent">
+            <ul class="burger-ul">
+                <li class="burger-li">
+                    <a href="#">Գլխավոր</a>
+                    <img class="icon-burger" src="icons/home.png" alt="">
+                </li>
+                <li class="burger-li">
+                    <a href="#">Նորություններ</a>
+                    <img class="icon-burger" src="icons/product.png" alt="">
+                </li>
+                <li class="burger-li">
+                    <a href="#">Մեր Մասին</a>
+                    <img class="icon-burger" src="icons/pricing.png" alt="">
+                </li>
+                <li class="burger-li">
+                    <a href="#">Կոնտակտներ</a>
+                    <img class="icon-burger" src="icons/contact.png" alt="">
+                </li>
+            </ul>
+            <div class="burger-search">
+                <input type="text" class="burger-inp" placeholder="Search">
+                <button class="burger-btn">Որոնել</button>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search" class="inp-search">
+            <button class="search-btn">Որոնել</button>
+        </div>
+        <main id="main">
+            <div class="main-left">
+                <div class="main-left-inside">
+                    <p class="main-text1" id="newsText"></p>
+                    <div class="main-btns">
+                        <button class="main-btn-right main-btn" onclick="location.href='newsPage4.html'">Իմանալ Ավելին</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="main-right-inside" id="1">
+                </div>
+            </div>
+        </main>
+        <div class="basket">
+            <div class="basket-box">
+                <div class="basket-box-top">
+                    <p class="basket-logo">Lraber</p>
+                    <div class="cross">
+                        <div class="x1 x"></div>
+                        <div class="x2 x"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section1">
+        <div class="section1-top" id="practis">
+            <p class="section1-top-txt1">Նորություններ</p>
+        </div>
+        <div class="section1-bottom">
+            <div class="section1-bottom-inside">
+                <div data-aos="zoom-in-right" data-aos-duration="1500" class="box box1">
+                    <a href="newsPage1.html" tagret="_blank">
+                        <img class="box-img" src="image/count.png" alt="">
+                    </a>
+                    <p class="box-txt">Ընտանեկան Նորություններ</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1500" class="box box2">
+                    <a href="newsPage2.html" tagret="_blank">
+                        <img class="box-img" src="image/humb.png" alt="">
+                    </a>
+                    <p class="box-txt bxt2">Օրենքի Նորություններ</p>
+                </div>
+                <div data-aos="zoom-in-left" data-aos-duration="1500" class="box box3">
+                    <a href="newsPage3.html" tagret="_blank">
+                        <img class="box-img" src="image/notes.png" alt="">
+                    </a>
+                    <p class="box-txt">Դատական Նորություններ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2" id="practise">
+        <div class="section2-top">
+            <p class="section2-txt1">Մեր Մասին</p>
+            <p class="section2-txt2">Մենք Լրատվական Նորությունների Կայք Ենք Որը Հասցնում է Մատչելի և Թարմ Նորություններ  </p>
+        </div>
+        <div class="section2-bottom">
+            <div class="section2-box" data-aos="zoom-out-right" data-aos-duration="1850">
+                <div class="section2-box-text">
+                    <p class="sec2-box-txt1">Նորություններ</p>
+                    <p class="sec2-box-txt2">Ունենք Ամենաթարմ Նորությունները</p>
+                </div>
+                <div class="section2-box-image sbi1"></div>
+            </div>
+            <div class="section2-box" data-aos="zoom-out-left" data-aos-duration="1850">
+                <div class="section2-box-text">
+                    <p class="sec2-box-txt1">Մեր Թիմը</p>
+                    <p class="sec2-box-txt2">Արագագործ և Մեծ Թիմ Է</p>
+                </div>
+                <div class="section2-box-image sbi2"></div>
+            </div>
+            <div class="section2-box" data-aos="zoom-out-right" data-aos-duration="1850">
+                <div class="section2-box-text">
+                    <p class="sec2-box-txt1">Մեր Լրագրուղները</p>
+                    <p class="sec2-box-txt2">Հնարաորին և Արագ Հասցնում Են Ինֆորմացիան Մեզ և Ձեզ</p>
+                </div>
+                <div class="section2-box-image sbi3"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="touch" id="touch">
+        <div class="touch-text">
+            <p class="touch-txt1">Ինչպես Կապնվել Մեզ Հետ</p>
+        </div>
+        <div class="touch-boxes">
+            <div class="touch-inside">
+                <div class="touch-box touch-box1" data-aos="fade-right" data-aos-duration="1400">
+                    <img class="touchBoxImg" src="icons/phone.png" alt="">
+                    <p class="mail">armenia.young@gmail.com</p>
+                    <p class="mail mail2">lraber.young@gmail.com</p>
+                    <p class="get">Ստանալ Օգնություն</p>
+                    <button class="get-btn">Գրանցել Հղում</button>
+                </div>
+                <div class="touch-box touch-box2" data-aos="zoom-in"
+                     data-aos-duration="1400">
+                    <img class="touchBoxImg" src="icons/location.png" alt="">
+                    <p class="mail">armenia.young@gmail.com</p>
+                    <p class="mail mail2">lraber.young@gmail.com</p>
+                    <p class="get-dark">Ստանալ Օգնություն</p>
+                    <button class="get-btn">Գրանցել Հղում</button>
+                </div>
+                <div class="touch-box touch-box3" data-aos="fade-left" data-aos-duration="1400">
+                    <img class="touchBoxImg" src="icons/telegram.png" alt="">
+                    <p class="mail">armenia.young@gmail.com</p>
+                    <p class="mail mail2">lraber.young@gmail.com</p>
+                    <p class="get">Ստանալ Օգնություն</p>
+                    <button class="get-btn">Գրանցել Հղում</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-sub">
+        <div class="section-sub2">
+            <div class="reg">
+                <div class="reg-text" data-aos="zoom-in-right" data-aos-duration="1500">
+                    <p>Գրանցվել Վերջին Նորությունների Համար</p>
+                </div>
+                <div class="reg-input" data-aos="zoom-in-left" data-aos-duration="1500">
+                    <input placeholder="Ձեր ՄԵյլը" type="text">
+                    <button>Գրանցվել</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-box" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="footer-heading">
+                <p class="foot-heading">Կազմակերպության Ինֆո․</p>
+            </div>
+            <div class="footer-text">
+                <ul class="foot-ul">
+                    <li>
+                        <a href="#">Մեր Մասին</a>
+                    </li>
+                    <li>
+                        <a href="#">Կարյերա</a>
+                    </li>
+                    <li>
+                        <a href="#">Մենք Փնտրում ԵՆք</a>
+                    </li>
+                    <li>
+                        <a href="#">Բլոգ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-box" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="footer-heading">
+                <p class="foot-heading">Լրագրուղների Համար</p>
+            </div>
+            <div class="footer-text">
+                <ul class="foot-ul">
+                    <li>
+                        <a href="#">Մեր Մասին</a>
+                    </li>
+                    <li>
+                        <a href="#">Կարյերա</a>
+                    </li>
+                    <li>
+                        <a href="#">Մենք Փնտրում Ենք</a>
+                    </li>
+                    <li>
+                        <a href="#">Բլոգ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-box" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="footer-heading">
+                <p class="foot-heading">Ռեսուրսներ</p>
+            </div>
+            <div class="footer-text">
+                <ul class="foot-ul">
+                    <li>
+                        <a href="#">IOS և Android</a>
+                    </li>
+                    <li>
+                        <a href="#">Տեսնել Դեմոն</a>
+                    </li>
+                    <li>
+                        <a href="#">Հաճախորդներ</a>
+                    </li>
+                    <li>
+                        <a href="#">API</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-box" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="footer-heading">
+                <p class="foot-heading">Ինչպես Կապնվել ՄԵզ Հետ</p>
+            </div>
+            <div class="footer-text">
+                <ul class="foot-ul">
+                    <li class="foot-verj">
+                        <img src="" alt="">
+                        <img src="icons/zang.png" alt="">
+                        <p class="foot-p">(480) 555-0103</p>
+                    </li>
+                    <li class="foot-verj">
+                        <img src="icons/locat.png" alt="">
+                        <p class="foot-p">Արշակունյաց Փ․ 15</p>
+                    </li>
+                    <li class="foot-verj">
+                        <img src="icons/tele.png" alt="">
+                        <p class="foot-p">lraber.young@gmail.com</p>
+                    </li>
+                    <li>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- link to js -->
+    <script src="legalide.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const title = fetch("https://localhost:44301/api/Article/GetArticleById/5", {
+            method: "GET",
+            mode: "cors",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                return data.result.title;
+
+            })
+            .catch((error) => console.error(error));
+
+        const image = fetch("https://localhost:44301/api/Article/GetArticleById/5", {
+            method: "GET",
+            mode: "cors",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                return data.result.image;
+            })
+            .catch((error) => console.error(error));
+        window.onload = async () => {
+            let fetchtitle = await title;
+            let fetchimage = await image;
+            document.getElementById("newsText").innerHTML = fetchtitle;
+            document.getElementById("1")
+                .insertAdjacentHTML("afterend",
+                    `<img class = "woman" src = "data:image/png;base64,${fetchimage}">`);
+        }
+        AOS.init();
+    </script>
+</body>
+</html>
